@@ -1,0 +1,9 @@
+@media (max-width: 575px) {
+	h1 {
+		text-align: center;
+	}
+	nav.float-right {
+		float: none !important;
+		text-align: center;
+	}
+}
