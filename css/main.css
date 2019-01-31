@@ -7,10 +7,6 @@ h1 {
 }
 nav a {
 	font-size: 18px;
-	margin-left: 20px;
 	text-transform: uppercase;
 	line-height: 50px;
-}
-nav a:first-child {
-	margin: 0;
 }
