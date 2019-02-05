@@ -1,14 +1,43 @@
+body {
+	font-family: PT sans, arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Poppins;
+}
+
+
 #header {
+	height: 104px;
 	margin-bottom: 60px;
 }
 h1 {
 	font-size: 28px;
 	line-height: 50px;
 }
-nav a {
-	font-size: 18px;
+nav a:not(.btn-green) {
+	font-family: Poppins;
+	font-size: 15px;
 	text-transform: uppercase;
 	line-height: 50px;
+	color: #121213;
+	transition: transform 200ms ease;
+}
+nav a:not(.btn-green):hover {
+	text-decoration: none;
+	color: #121213;
+	transform: translate(0,-5px);
+}
+.btn-green {
+	background-color: #22c669;
+	color: white;
+	font-family: Poppins;
+	font-weight: 600;
+	text-transform: uppercase;
+	box-shadow: 0 2px 5px 0 rgba(33,44,66,.15)
+}
+.btn-green:hover {
+	color: white;
+	box-shadow: 0 5px 14px 0 rgba(34,198,105,.6)
 }
 
 #destaque {
