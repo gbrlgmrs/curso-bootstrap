@@ -19,7 +19,7 @@
 					<a href="#" class="d-block d-md-inline-block mx-3">Início</a>
 					<a href="#" class="d-block d-md-inline-block mx-3">Sobre</a>
 					<a href="#" class="d-block d-md-inline-block mx-3">Contato</a>
-					<a href="#" class="d-block d-md-inline-block mx-3 mr-lg-0 btn btn-green" data-toggle="modal" data-target="#cadastro_modal">Cadastre-se</a>
+					<a href="#" class="d-block d-md-inline-block mx-3 mr-lg-0 btn btn-green btn-disabled" data-toggle="modal" data-target="#cadastro_modal">Cadastre-se</a>
 				</nav>
 			</div>
 		</div>
@@ -59,7 +59,7 @@
 		</div>
 	</div>
 
-	<div class="modal" id="cadastro_modal" tabindex="-1" role="dialog">
+	<div class="modal fade" id="cadastro_modal" tabindex="-1" role="dialog">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -69,17 +69,36 @@
 	        </button>
 	      </div>
 	      <div class="modal-body">
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	      	<form>
+	      		<div class="form-group">
+				    <label for="input_nome">Nome</label>
+				    <input type="text" class="form-control" id="input_nome" placeholder="Digite seu nome">
+			  	</div>
+	      		<div class="form-group">
+				    <label for="input_email">E-mail</label>
+				    <input type="text" class="form-control" id="input_email" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+				    <small id="emailHelp" class="from-text text-muted">Nós não compartilharemos seu e-mail com ninguém.</small>
+			  	</div>
+			  	<div class="form-row">
+			  		<div class="col-form">
+			      		<div class="form-group">
+						    <label for="input_nome_usuario">Login</label>
+						    <div class="input-group">
+						    	<div class="input-group-prepend">
+						    		<div class="input-group-text">@</div>
+						    	</div>
+						    	<input type="text" class="form-control" id="input_nome_usuario" placeholder="Digite seu login">
+						    </div>	
+					  	</div>		  			
+			  		</div>
+			  		<div class="col-form">
+			      		<div class="form-group">
+						    <label for="input_senha">Senha</label>
+						    <input type="password" class="form-control" id="input_senha" placeholder="Digite sua senha">
+					  	</div>		  			
+			  		</div>			  		
+			  	</div>		  	
+			</form>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-primary">Salvar</button>
@@ -93,23 +112,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 
-<!-- 	<style>
-		.pai {
-			display: table;
-			height: 80px;
-			width: 100%;
-			padding: 20px 0;
-		}
-		.filho {
-			display: table-cell;
-			vertical-align: middle;
-			height: 40px;
-		}
-	</style>
-
-	<div class="pai" style=" background:red;">
-		<div class="filho" style="background:green"></div>
-		<div class="filho" style="background:blue"></div>
-	</div> -->
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
