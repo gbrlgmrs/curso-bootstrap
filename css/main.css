@@ -110,3 +110,8 @@ nav a:not(.btn-green):hover {
 	display: inline-block;
 	margin-top: 1rem;
 }
+
+/* Features */
+.feature {
+	margin: 100px 0 50px;
+}
