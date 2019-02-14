@@ -74,6 +74,7 @@ nav a:not(.btn-green):hover {
 	border-radius: 12px;
 	position: relative;
 	text-align: center;
+	margin-bottom: 100px;
 }
 #clientes-box .title {
 	position: absolute;
@@ -98,3 +99,7 @@ nav a:not(.btn-green):hover {
 	opacity: 1;
 }
 
+/* Vendas */
+#vendas img {
+	margin: 50px 0;
+}
