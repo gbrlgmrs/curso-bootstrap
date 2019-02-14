@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 60px;
 }
 h1 {
-	font-size: 28px;
+	/*font-size: 28px;*/
 	line-height: 50px;
 }
 nav a:not(.btn-green) {
@@ -102,4 +102,11 @@ nav a:not(.btn-green):hover {
 /* Vendas */
 #vendas img {
 	margin: 50px 0;
+}
+#vendas_collapse {
+	margin: 0;
+}
+#vendas_collapse + a {
+	display: inline-block;
+	margin-top: 1rem;
 }
