@@ -21,5 +21,5 @@ $(window).on("scroll", function(){
 		distanciaDoTopo = 300;
 	}
 
-	$("#header_shadow").css("top", (distanciaDoTopo / 15) + "px");
+	$("#header_shadow").css("top", (distanciaDoTopo / 10) + "px");
 })
