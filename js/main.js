@@ -17,8 +17,8 @@ $('#vendas_collapse').on('hidden.bs.collapse', function () {
 $(window).on("scroll", function(){
 	var distanciaDoTopo = $(window).scrollTop();
 
-	if (distanciaDoTopo > 400) {
-		distanciaDoTopo = 400;
+	if (distanciaDoTopo > 300) {
+		distanciaDoTopo = 300;
 	}
 
 	$("#header_shadow").css("top", (distanciaDoTopo / 15) + "px");
