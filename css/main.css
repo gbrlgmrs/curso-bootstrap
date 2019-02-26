@@ -81,6 +81,9 @@ nav a:not(.btn-green):hover {
 	color: #121213;
 	transform: translate(0,-5px);
 }
+.btn-success {
+
+}
 .btn-green {
 	background-color: #22c669;
 	color: white;
@@ -110,15 +113,16 @@ nav a:not(.btn-green):hover {
 	background: #ebebeb;
 	position: relative;
 	padding: 100px 0;
+	margin-bottom: 100px;
 }
 #clientes:after {
     content: "";
     width: 100%;
-    height: 60px;
+    height: 150px;
     background: #ebebeb;
     position: absolute;
     bottom: -40px;
-    transform: rotateZ(-2deg);
+    transform: rotateZ(-1deg);
     z-index: -1;
 }
 #clientes-box {
@@ -167,6 +171,9 @@ nav a:not(.btn-green):hover {
 /* Features */
 .feature {
 	margin: 100px 0 50px;
+}
+.feature img {
+	max-height: 300px;
 }
 
 #footer {
